@@ -22,11 +22,11 @@ projects = collection.find(projection=FIELDS)
 @app.route("/")
 def index():
     # write a statement that finds all the items in the db and sets it to a variable
-    inventory = list(produce.find())
-    print(inventory)
+    # inventory = list(produce.find())
+    # print(inventory)
 
     # render an index.html template and pass it the data you retrieved from the database
-    return render_template("index.html", inventory=inventory)
+    return render_template("index_test.html")
 
 # Route that will return Web API JSON data
 #Retrieve our MongoDB Data collection:
@@ -48,16 +48,16 @@ def js_using_web_api():
     return render_template("index.html")
 
 # Function that queries database and returns a dictionary
-def worst_geo_data():
-    connection = MongoClient(MONGODB_HOST, MONGODB_PORT)
-    collection = connection[DBS_NAME][COLLECTION_NAME]
-    projects = collection.find(projection=FIELDS)
-    json_projects = []
-    for project in projects:
-        json_projects.append(project)
-    json_projects = json.dumps(json_projects, default=json_util.default)
-    connection.close()
-    return json_projects
+# def worst_geo_data():
+#     connection = MongoClient(MONGODB_HOST, MONGODB_PORT)
+#     collection = connection[DBS_NAME][COLLECTION_NAME]
+#     projects = collection.find(projection=FIELDS)
+#     json_projects = []
+#     for project in projects:
+#         json_projects.append(project)
+#     json_projects = json.dumps(json_projects, default=json_util.default)
+#     connection.close()
+#     return json_projects
 
 if __name__ == "__main__":
     app.run(debug=True)
