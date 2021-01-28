@@ -42,6 +42,35 @@ def worst_geo_data():
 def js_using_web_api():
     return render_template("index_marker.html")
 
+# Route to render visualization by querying web api from JavaScript
+@app.route("/sunburst")
+def sunburst():
+    return render_template("index.html")
+
+@app.route("/sunburst-data")
+def sunburst_data():
+
+    MONGODB_HOST = 'localhost'
+    MONGODB_PORT = 27017
+    DBS_NAME = 'project_two'
+    COLLECTION_NAME = 'hundred_worst'
+    FIELDS = {'fatalities': True, 'date': True, 'type': True, 'registration': True, 'operator': True, 'location': True, 'Latitude': True, 'Longitude': True, '_id': True}
+
+    connection = MongoClient(MONGODB_HOST, MONGODB_PORT)
+    collection = connection[DBS_NAME][COLLECTION_NAME]
+    projects = collection.find(projection=FIELDS)
+    json_projects = []
+    for project in projects:
+        json_projects.append(project)
+    json_projects = json.dumps(json_projects, default=json_util.default)
+    connection.close()
+    
+    return json_projects
+
+# Route to render visualization by querying web api from JavaScript
+@app.route("/multiple")
+def multiple():
+    return render_template("multiple.html")
 
 
 if __name__ == "__main__":
