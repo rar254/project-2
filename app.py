@@ -1,33 +1,75 @@
-from flask import Flask, render_template, redirect 
-from flask_pymongo import PyMongo
-import os
+from flask import Flask,jsonify, render_template, request, url_for, redirect
+import pymongo
+from pymongo import MongoClient
+import json
+from bson import json_util
+from bson.json_util import dumps
 
 app = Flask(__name__)
 
-app.config["MONGO_URI"] = "mongodb://localhost:27017/test_db"
-mongo = PyMongo(app)
+# setup mongo connection
+MONGODB_HOST = 'localhost'
+MONGODB_PORT = 27017
+DBS_NAME = 'project_two'
+COLLECTION_NAME = 'period_time'
+FIELDS = {'Airliner Accidents': True, 'Airliner Fatalities': True, 'Corp jet Accidents': True, 'Corp jet Fatalities': True, 
+'Hijacking Fatalities': True, 'Hijackings': True, 'Year': True, '_id': False}
 
+
+# connect to mongo db and collection
+connection = MongoClient(MONGODB_HOST, MONGODB_PORT)
+collection = connection[DBS_NAME][COLLECTION_NAME]
+projects = collection.find(projection=FIELDS)
 
 @app.route("/")
-def home(): 
+def test():
+    return render_template("index.html")
 
-    twelve_year = mongo.db.twelve_year.find_one()
-    return render_template("app.js", twelve_year=twelve_year)
+@app.route("/api_data")
+def scrape():
+    intel = get_json()
 
-#@app.route("/scrape")
-#def scrape(): 
+    return jsonify(intel)
 
- #   twelve_year = mongo.db.twelve_year
+@app.route("/ze_bar")
+def chart_builder():
+    intel = get_json()
+    
+    #The html for the pie chart is rendered and the pie chart data is placed
+    return render_template("chartjs_bar.html", bar=intel)
 
-#Instead of passing a function to scrape a website, I could just take data from the database.
+@app.route('/period_data')
+def pie_chart():
+    return render_template("index.html")
 
-    #mars_data = scrape_mars.scrape_mars_news()
-    #mars_data = scrape_mars.scrape_mars_image()
-    #mars_f = scrape_mars.scrape_mars_facts()
-    #mars_data = scrape_mars.scrape_mars_hemispheres()
-    #mars_info.update({}, mars_data, upsert=True)
+#LET IT BE KNOWN THAT IF ANY HTML NEEDS THE JSON DATA, IT SHOULD USE THE FUNCTION "get_json"
+def get_json():
 
-    #return redirect("/", code=302)
+    connection = MongoClient(MONGODB_HOST, MONGODB_PORT)
+    collection = connection[DBS_NAME][COLLECTION_NAME]
+    projects = collection.find(projection=FIELDS)
 
-if __name__ == "__main__": 
-    app.run(debug= True)
+    sum_accidents = []
+    ze_years = []
+    json_projects = []
+
+    for project in projects:
+        json_projects.append(project)
+    connection.close()
+    
+    index = 0
+
+    for i in range(len(json_projects)):
+        sum_accidents.append(sum([
+            int(json_projects[i]["Airliner Accidents"]), int(json_projects[i]["Airliner Fatalities"]),
+            int(json_projects[i]["Corp jet Accidents"]), int(json_projects[i]["Corp jet Fatalities"]),
+            int(json_projects[i]["Hijacking Fatalities"]), int(json_projects[i]["Hijackings"])
+            ]))
+        ze_years.append(json_projects[i]["Year"])
+        index += 1
+
+    dictios = [{"year": ze_year, "total_accidents": sum_accident} for (sum_accident, ze_year) in zip(sum_accidents, ze_years)]       
+    return dictios
+
+if __name__ == '__main__':
+    app.run()
