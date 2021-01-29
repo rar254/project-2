@@ -19,10 +19,11 @@ connection = MongoClient(MONGODB_HOST, MONGODB_PORT)
 collection = connection[DBS_NAME][COLLECTION_NAME]
 projects = collection.find(projection=FIELDS)
 
-@app.route("/")
-def index():
+#This is an EXTRA BAR CHART that we have as backup because Tyler created the dashboard
+# @app.route("/")
+# def index():
 
-    return render_template("index_test.html")
+#     return render_template("index_test.html")
 
 #Retrieve our MongoDB Data collection:
 @app.route("/json-data")
@@ -43,11 +44,11 @@ def js_using_web_api():
     return render_template("index_marker.html")
 
 # Route to render visualization by querying web api from JavaScript
-@app.route("/sunburst")
+@app.route("/bubble")
 def sunburst():
-    return render_template("index.html")
+    return render_template("bubble.html")
 
-@app.route("/sunburst-data")
+@app.route("/bubble-data")
 def sunburst_data():
 
     MONGODB_HOST = 'localhost'
