@@ -1,6 +1,6 @@
-let labels1 = ["YES", "YES BUT IN GREEN"];
-let data1 = [69, 31];
-let colors1 = ['rgba(0, 0, 0, 0.1)'];
+//let labels1 = ["YES", "YES BUT IN GREEN"];
+//let data1 = [69, 31];
+//let colors1 = ['rgba(0, 0, 0, 0.1)'];
 
 var randomColorGenerator = function () { 
     return '#' + (Math.random().toString(16) + '0000000').slice(2, 8); 
@@ -9,7 +9,7 @@ var randomColorGenerator = function () {
 
 
 
-d3.json("/api_data", function (theData) { 
+d3.json("/api_silliness", function (theData) { 
     console.log(theData); 
 
     var labelData = [];

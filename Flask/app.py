@@ -25,7 +25,7 @@ projects = collection.find(projection=FIELDS)
 def test():
     return render_template("index.html")
 
-@app.route("/api_data")
+@app.route("/api_silliness")
 def scrape():
     intel = get_json()
 
@@ -36,7 +36,7 @@ def chart_builder():
     intel = get_json()
     
     #The html for the pie chart is rendered and the pie chart data is placed
-    return render_template("chartjs_bar.html", bar=intel)
+    return render_template("index.html", bar=intel)
 
 @app.route('/period_data')
 def pie_chart():

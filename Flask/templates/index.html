@@ -8,6 +8,8 @@
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
+    <script src="https://cdn.plot.ly/plotly-1.2.0.min.js"></script>
+    <script src="../d3.min.js"></script>
 
 
     <!-- Bootstrap core CSS     -->
@@ -22,9 +24,9 @@
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     
-    <!--Toast UI style sheets-->
-    <link rel="stylesheet" href="https://uicdn.toast.com/chart/latest/toastui-chart.min.css" />
-    <script src="https://uicdn.toast.com/chart/latest/toastui-chart.min.js"></script>
+    <!-- Chart js dependency-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <!--This is where it ends-->
     
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
     <link href="../static/css/pe-icon-7-stroke.css" rel="stylesheet" />
@@ -91,7 +93,8 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4">
+                    <!-- The 12 in "col-md-12" determines the size of the "Data Visualization" container. -->
+                    <div class="col-md-12">
                         <div class="card">
 
                             <div class="header">
@@ -99,7 +102,10 @@
                                 <p class="category">Data Visualization 1 description</p>
                             </div>
                             <div class="content">
-                                <a href="/ze_bar">Accidents per year</a>
+                                <!-- This is where the pie chart is held -->
+                                <canvas id="myChart"></canvas>
+                                <script type="text/javascript" src="../static/js/script.js"></script>
+                                <!-- This is where it ends -->
                             </div>
                         </div>
                     </div>
