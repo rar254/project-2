@@ -65,13 +65,13 @@ https://plotly.com
 
 With these libraries we were able to create the following visualizations for the datasets listed above
 
-1. Statistics by Period
+* Statistics by Period
    * A bar graph that shows the number of incidents per year over a 77-year time period.
 
-2. Worst geographical regions: 
+* Worst geographical regions: 
    * A scatter plot that shows the number of accidents per country.
    * A bar graph that shows the number of accidents per country.
    * A leaflet map that conveys the amount of accidents per country through increased or decreased marker size.
 
-3. 100 Worst aviation accidents (including ground fatalities)
+* 100 Worst aviation accidents (including ground fatalities)
    * ????
