@@ -26,7 +26,7 @@ period_projects = period_collection.find(projection=PERIOD_FIELDS)
 def test():
     return render_template("index.html")
 
-#This route is where the json data is grabbed by D3.
+#This route is where the json data is grabbed by D3. SCRIPT.JS IS NECESSARY JAVASCRIPT FOR MY CODE, AND IT MUST BE IN THE STATIC FOLDER.
 @app.route("/api_silliness")
 def scrape():
     intel = get_json()
