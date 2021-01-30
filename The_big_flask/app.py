@@ -142,6 +142,38 @@ def multiple():
     return render_template("multiple.html")
 
 
+#############JORDAN
+
+# setup mongo connection
+MONGODB_HOST_CONTI = 'localhost'
+MONGODB_PORT_CONTI = 27017
+DBS_NAME_CONTI = 'project_two'
+COLLECTION_NAME_CONTI = 'continents'
+FIELDS_CONTI = {'number': True, 'continent': True, 'accidents': True, 'fatalities': True, 'ground fat': True, 'Latitude': True, 'Longitude': True, '_id': False}
+
+# connect to mongo db and collection
+connection_c = MongoClient(MONGODB_HOST_CONTI, MONGODB_PORT_CONTI)
+collection_c = connection_c[DBS_NAME_CONTI][COLLECTION_NAME_CONTI]
+projects_c = collection_c.find(projection=FIELDS_CONTI)
+
+@app.route("/json-data-continents")
+def continents_data():
+    connection_c = MongoClient(MONGODB_HOST_CONTI, MONGODB_PORT_CONTI)
+    collection_c = connection_c[DBS_NAME_CONTI][COLLECTION_NAME_CONTI]
+    projects_c = collection_c.find(projection=FIELDS_CONTI)
+    json_projects_c = []
+    for project_c in projects_c:
+        json_projects_c.append(project_c)
+    json_projects_c = json.dumps(json_projects_c, default=json_util.default)
+    connection.close()
+    return json_projects_c
+
+# Route to render visualization by querying web api from JavaScript
+@app.route("/js-using-web-api2")
+def js_using_web_api2():
+    return render_template("index.html")
+
+
 
 
 
