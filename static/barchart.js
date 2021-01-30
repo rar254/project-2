@@ -5,7 +5,7 @@ d3.json("/json-data-continents", function (myData) {
     var myYData = [];
   
     for (var i = 0; i < myData.length; i++){
-      var xData = myData[i][continents];
+      var xData = myData[i].[continents];
       var yData = myData[i].fatalities;
       console.log(xData);
       myXData.push(xData);
