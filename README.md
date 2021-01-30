@@ -74,4 +74,4 @@ With these libraries we were able to create the following visualizations for the
    * A leaflet map that conveys the amount of accidents per country through increased or decreased marker size.
 
 * 100 Worst aviation accidents (including ground fatalities)
-   * ????
+   * A bar graph displaying 100 worst accidents by continent.
