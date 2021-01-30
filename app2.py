@@ -40,6 +40,11 @@ def continents_data():
     connection.close()
     return json_projects
 
+# Route to render visualization by querying web api from JavaScript
+@app.route("/js-using-web-api2")
+def js_using_web_api2():
+    return render_template("index-continents.html")
+
 # Route that will return Web API JSON data
 #Retrieve our MongoDB Data collection:
 @app.route("/json-data")
