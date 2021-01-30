@@ -1,0 +1,859 @@
+[{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d187"
+  },
+  "Year": "2019",
+  "Airliner Accidents": "23",
+  "Airliner Fatalities": "288",
+  "Corp jet Accidents": "9",
+  "Corp jet Fatalities": "30",
+  "Hijackings": "4",
+  "Hijacking Fatalities": "1"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d188"
+  },
+  "Year": "2018",
+  "Airliner Accidents": "18",
+  "Airliner Fatalities": "561",
+  "Corp jet Accidents": "7",
+  "Corp jet Fatalities": "26",
+  "Hijackings": "1",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d189"
+  },
+  "Year": "2017",
+  "Airliner Accidents": "14",
+  "Airliner Fatalities": "59",
+  "Corp jet Accidents": "7",
+  "Corp jet Fatalities": "24",
+  "Hijackings": "0",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d18a"
+  },
+  "Year": "2016",
+  "Airliner Accidents": "17",
+  "Airliner Fatalities": "258",
+  "Corp jet Accidents": "5",
+  "Corp jet Fatalities": "20",
+  "Hijackings": "2",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d18b"
+  },
+  "Year": "2015",
+  "Airliner Accidents": "14",
+  "Airliner Fatalities": "186",
+  "Corp jet Accidents": "9",
+  "Corp jet Fatalities": "40",
+  "Hijackings": "0",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d18c"
+  },
+  "Year": "2014",
+  "Airliner Accidents": "20",
+  "Airliner Fatalities": "692",
+  "Corp jet Accidents": "12",
+  "Corp jet Fatalities": "54",
+  "Hijackings": "3",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d18d"
+  },
+  "Year": "2013",
+  "Airliner Accidents": "28",
+  "Airliner Fatalities": "232",
+  "Corp jet Accidents": "8",
+  "Corp jet Fatalities": "23",
+  "Hijackings": "1",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d18e"
+  },
+  "Year": "2012",
+  "Airliner Accidents": "24",
+  "Airliner Fatalities": "477",
+  "Corp jet Accidents": "6",
+  "Corp jet Fatalities": "26",
+  "Hijackings": "3",
+  "Hijacking Fatalities": "2"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d18f"
+  },
+  "Year": "2011",
+  "Airliner Accidents": "36",
+  "Airliner Fatalities": "525",
+  "Corp jet Accidents": "4",
+  "Corp jet Fatalities": "16",
+  "Hijackings": "1",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d190"
+  },
+  "Year": "2010",
+  "Airliner Accidents": "32",
+  "Airliner Fatalities": "943",
+  "Corp jet Accidents": "5",
+  "Corp jet Fatalities": "18",
+  "Hijackings": "1",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d191"
+  },
+  "Year": "2009",
+  "Airliner Accidents": "32",
+  "Airliner Fatalities": "763",
+  "Corp jet Accidents": "4",
+  "Corp jet Fatalities": "11",
+  "Hijackings": "5",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d192"
+  },
+  "Year": "2008",
+  "Airliner Accidents": "35",
+  "Airliner Fatalities": "595",
+  "Corp jet Accidents": "9",
+  "Corp jet Fatalities": "39",
+  "Hijackings": "3",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d193"
+  },
+  "Year": "2007",
+  "Airliner Accidents": "32",
+  "Airliner Fatalities": "774",
+  "Corp jet Accidents": "9",
+  "Corp jet Fatalities": "21",
+  "Hijackings": "6",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d194"
+  },
+  "Year": "2006",
+  "Airliner Accidents": "33",
+  "Airliner Fatalities": "905",
+  "Corp jet Accidents": "13",
+  "Corp jet Fatalities": "51",
+  "Hijackings": "3",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d195"
+  },
+  "Year": "2005",
+  "Airliner Accidents": "40",
+  "Airliner Fatalities": "1075",
+  "Corp jet Accidents": "6",
+  "Corp jet Fatalities": "23",
+  "Hijackings": "1",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d196"
+  },
+  "Year": "2004",
+  "Airliner Accidents": "35",
+  "Airliner Fatalities": "462",
+  "Corp jet Accidents": "8",
+  "Corp jet Fatalities": "31",
+  "Hijackings": "4",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d197"
+  },
+  "Year": "2003",
+  "Airliner Accidents": "34",
+  "Airliner Fatalities": "705",
+  "Corp jet Accidents": "11",
+  "Corp jet Fatalities": "25",
+  "Hijackings": "9",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d198"
+  },
+  "Year": "2002",
+  "Airliner Accidents": "42",
+  "Airliner Fatalities": "1000",
+  "Corp jet Accidents": "8",
+  "Corp jet Fatalities": "21",
+  "Hijackings": "10",
+  "Hijacking Fatalities": "2"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d199"
+  },
+  "Year": "2001",
+  "Airliner Accidents": "36",
+  "Airliner Fatalities": "879",
+  "Corp jet Accidents": "9",
+  "Corp jet Fatalities": "37",
+  "Hijackings": "11",
+  "Hijacking Fatalities": "268"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d19a"
+  },
+  "Year": "2000",
+  "Airliner Accidents": "43",
+  "Airliner Fatalities": "1148",
+  "Corp jet Accidents": "8",
+  "Corp jet Fatalities": "20",
+  "Hijackings": "27",
+  "Hijacking Fatalities": "5"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d19b"
+  },
+  "Year": "1999",
+  "Airliner Accidents": "44",
+  "Airliner Fatalities": "478",
+  "Corp jet Accidents": "9",
+  "Corp jet Fatalities": "37",
+  "Hijackings": "13",
+  "Hijacking Fatalities": "2"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d19c"
+  },
+  "Year": "1998",
+  "Airliner Accidents": "47",
+  "Airliner Fatalities": "1194",
+  "Corp jet Accidents": "6",
+  "Corp jet Fatalities": "15",
+  "Hijackings": "14",
+  "Hijacking Fatalities": "1"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d19d"
+  },
+  "Year": "1997",
+  "Airliner Accidents": "47",
+  "Airliner Fatalities": "1164",
+  "Corp jet Accidents": "10",
+  "Corp jet Fatalities": "31",
+  "Hijackings": "12",
+  "Hijacking Fatalities": "1"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d19e"
+  },
+  "Year": "1996",
+  "Airliner Accidents": "57",
+  "Airliner Fatalities": "1844",
+  "Corp jet Accidents": "11",
+  "Corp jet Fatalities": "64",
+  "Hijackings": "17",
+  "Hijacking Fatalities": "125"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d19f"
+  },
+  "Year": "1995",
+  "Airliner Accidents": "58",
+  "Airliner Fatalities": "1207",
+  "Corp jet Accidents": "12",
+  "Corp jet Fatalities": "59",
+  "Hijackings": "12",
+  "Hijacking Fatalities": "1"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1a0"
+  },
+  "Year": "1994",
+  "Airliner Accidents": "59",
+  "Airliner Fatalities": "1454",
+  "Corp jet Accidents": "10",
+  "Corp jet Fatalities": "49",
+  "Hijackings": "27",
+  "Hijacking Fatalities": "8"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1a1"
+  },
+  "Year": "1993",
+  "Airliner Accidents": "51",
+  "Airliner Fatalities": "1134",
+  "Corp jet Accidents": "7",
+  "Corp jet Fatalities": "33",
+  "Hijackings": "36",
+  "Hijacking Fatalities": "4"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1a2"
+  },
+  "Year": "1992",
+  "Airliner Accidents": "61",
+  "Airliner Fatalities": "1546",
+  "Corp jet Accidents": "6",
+  "Corp jet Fatalities": "31",
+  "Hijackings": "11",
+  "Hijacking Fatalities": "4"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1a3"
+  },
+  "Year": "1991",
+  "Airliner Accidents": "54",
+  "Airliner Fatalities": "1151",
+  "Corp jet Accidents": "14",
+  "Corp jet Fatalities": "76",
+  "Hijackings": "20",
+  "Hijacking Fatalities": "6"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1a4"
+  },
+  "Year": "1990",
+  "Airliner Accidents": "48",
+  "Airliner Fatalities": "664",
+  "Corp jet Accidents": "9",
+  "Corp jet Fatalities": "31",
+  "Hijackings": "38",
+  "Hijacking Fatalities": "86"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1a5"
+  },
+  "Year": "1989",
+  "Airliner Accidents": "65",
+  "Airliner Fatalities": "1536",
+  "Corp jet Accidents": "6",
+  "Corp jet Fatalities": "18",
+  "Hijackings": "15",
+  "Hijacking Fatalities": "1"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1a6"
+  },
+  "Year": "1988",
+  "Airliner Accidents": "59",
+  "Airliner Fatalities": "1149",
+  "Corp jet Accidents": "10",
+  "Corp jet Fatalities": "30",
+  "Hijackings": "15",
+  "Hijacking Fatalities": "12"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1a7"
+  },
+  "Year": "1987",
+  "Airliner Accidents": "46",
+  "Airliner Fatalities": "1111",
+  "Corp jet Accidents": "9",
+  "Corp jet Fatalities": "36",
+  "Hijackings": "12",
+  "Hijacking Fatalities": "2"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1a8"
+  },
+  "Year": "1986",
+  "Airliner Accidents": "45",
+  "Airliner Fatalities": "828",
+  "Corp jet Accidents": "9",
+  "Corp jet Fatalities": "33",
+  "Hijackings": "16",
+  "Hijacking Fatalities": "87"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1a9"
+  },
+  "Year": "1985",
+  "Airliner Accidents": "42",
+  "Airliner Fatalities": "2010",
+  "Corp jet Accidents": "12",
+  "Corp jet Fatalities": "40",
+  "Hijackings": "26",
+  "Hijacking Fatalities": "65"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1aa"
+  },
+  "Year": "1984",
+  "Airliner Accidents": "40",
+  "Airliner Fatalities": "683",
+  "Corp jet Accidents": "10",
+  "Corp jet Fatalities": "38",
+  "Hijackings": "27",
+  "Hijacking Fatalities": "33"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1ab"
+  },
+  "Year": "1983",
+  "Airliner Accidents": "36",
+  "Airliner Fatalities": "862",
+  "Corp jet Accidents": "8",
+  "Corp jet Fatalities": "34",
+  "Hijackings": "34",
+  "Hijacking Fatalities": "12"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1ac"
+  },
+  "Year": "1982",
+  "Airliner Accidents": "37",
+  "Airliner Fatalities": "1175",
+  "Corp jet Accidents": "6",
+  "Corp jet Fatalities": "41",
+  "Hijackings": "32",
+  "Hijacking Fatalities": "1"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1ad"
+  },
+  "Year": "1981",
+  "Airliner Accidents": "46",
+  "Airliner Fatalities": "905",
+  "Corp jet Accidents": "8",
+  "Corp jet Fatalities": "30",
+  "Hijackings": "30",
+  "Hijacking Fatalities": "6"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1ae"
+  },
+  "Year": "1980",
+  "Airliner Accidents": "48",
+  "Airliner Fatalities": "1299",
+  "Corp jet Accidents": "11",
+  "Corp jet Fatalities": "28",
+  "Hijackings": "38",
+  "Hijacking Fatalities": "1"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1af"
+  },
+  "Year": "1979",
+  "Airliner Accidents": "78",
+  "Airliner Fatalities": "1778",
+  "Corp jet Accidents": "8",
+  "Corp jet Fatalities": "31",
+  "Hijackings": "24",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1b0"
+  },
+  "Year": "1978",
+  "Airliner Accidents": "65",
+  "Airliner Fatalities": "1263",
+  "Corp jet Accidents": "6",
+  "Corp jet Fatalities": "18",
+  "Hijackings": "26",
+  "Hijacking Fatalities": "4"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1b1"
+  },
+  "Year": "1977",
+  "Airliner Accidents": "61",
+  "Airliner Fatalities": "1645",
+  "Corp jet Accidents": "12",
+  "Corp jet Fatalities": "52",
+  "Hijackings": "32",
+  "Hijacking Fatalities": "114"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1b2"
+  },
+  "Year": "1976",
+  "Airliner Accidents": "67",
+  "Airliner Fatalities": "1631",
+  "Corp jet Accidents": "9",
+  "Corp jet Fatalities": "46",
+  "Hijackings": "16",
+  "Hijacking Fatalities": "15"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1b3"
+  },
+  "Year": "1975",
+  "Airliner Accidents": "57",
+  "Airliner Fatalities": "1193",
+  "Corp jet Accidents": "4",
+  "Corp jet Fatalities": "9",
+  "Hijackings": "19",
+  "Hijacking Fatalities": "2"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1b4"
+  },
+  "Year": "1974",
+  "Airliner Accidents": "70",
+  "Airliner Fatalities": "1997",
+  "Corp jet Accidents": "10",
+  "Corp jet Fatalities": "39",
+  "Hijackings": "20",
+  "Hijacking Fatalities": "83"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1b5"
+  },
+  "Year": "1973",
+  "Airliner Accidents": "71",
+  "Airliner Fatalities": "2033",
+  "Corp jet Accidents": "8",
+  "Corp jet Fatalities": "31",
+  "Hijackings": "22",
+  "Hijacking Fatalities": "88"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1b6"
+  },
+  "Year": "1972",
+  "Airliner Accidents": "75",
+  "Airliner Fatalities": "2389",
+  "Corp jet Accidents": "7",
+  "Corp jet Fatalities": "27",
+  "Hijackings": "59",
+  "Hijacking Fatalities": "24"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1b7"
+  },
+  "Year": "1971",
+  "Airliner Accidents": "52",
+  "Airliner Fatalities": "1445",
+  "Corp jet Accidents": "6",
+  "Corp jet Fatalities": "23",
+  "Hijackings": "54",
+  "Hijacking Fatalities": "8"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1b8"
+  },
+  "Year": "1970",
+  "Airliner Accidents": "78",
+  "Airliner Fatalities": "1476",
+  "Corp jet Accidents": "7",
+  "Corp jet Fatalities": "17",
+  "Hijackings": "77",
+  "Hijacking Fatalities": "7"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1b9"
+  },
+  "Year": "1969",
+  "Airliner Accidents": "71",
+  "Airliner Fatalities": "1676",
+  "Corp jet Accidents": "8",
+  "Corp jet Fatalities": "33",
+  "Hijackings": "86",
+  "Hijacking Fatalities": "5"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1ba"
+  },
+  "Year": "1968",
+  "Airliner Accidents": "66",
+  "Airliner Fatalities": "1398",
+  "Corp jet Accidents": "6",
+  "Corp jet Fatalities": "23",
+  "Hijackings": "29",
+  "Hijacking Fatalities": "1"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1bb"
+  },
+  "Year": "1967",
+  "Airliner Accidents": "66",
+  "Airliner Fatalities": "1342",
+  "Corp jet Accidents": "3",
+  "Corp jet Fatalities": "7",
+  "Hijackings": "5",
+  "Hijacking Fatalities": "1"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1bc"
+  },
+  "Year": "1966",
+  "Airliner Accidents": "63",
+  "Airliner Fatalities": "1467",
+  "Corp jet Accidents": "4",
+  "Corp jet Fatalities": "10",
+  "Hijackings": "4",
+  "Hijacking Fatalities": "2"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1bd"
+  },
+  "Year": "1965",
+  "Airliner Accidents": "58",
+  "Airliner Fatalities": "1159",
+  "Corp jet Accidents": "5",
+  "Corp jet Fatalities": "14",
+  "Hijackings": "5",
+  "Hijacking Fatalities": "1"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1be"
+  },
+  "Year": "1964",
+  "Airliner Accidents": "49",
+  "Airliner Fatalities": "1016",
+  "Corp jet Accidents": "1",
+  "Corp jet Fatalities": "3",
+  "Hijackings": "0",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1bf"
+  },
+  "Year": "1963",
+  "Airliner Accidents": "57",
+  "Airliner Fatalities": "1263",
+  "Corp jet Accidents": "1",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "1",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1c0"
+  },
+  "Year": "1962",
+  "Airliner Accidents": "73",
+  "Airliner Fatalities": "1770",
+  "Corp jet Accidents": "5",
+  "Corp jet Fatalities": "16",
+  "Hijackings": "1",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1c1"
+  },
+  "Year": "1961",
+  "Airliner Accidents": "64",
+  "Airliner Fatalities": "1345",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "11",
+  "Hijacking Fatalities": "3"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1c2"
+  },
+  "Year": "1960",
+  "Airliner Accidents": "75",
+  "Airliner Fatalities": "1484",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "8",
+  "Hijacking Fatalities": "3"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1c3"
+  },
+  "Year": "1959",
+  "Airliner Accidents": "72",
+  "Airliner Fatalities": "1075",
+  "Corp jet Accidents": "1",
+  "Corp jet Fatalities": "3",
+  "Hijackings": "6",
+  "Hijacking Fatalities": "1"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1c4"
+  },
+  "Year": "1958",
+  "Airliner Accidents": "75",
+  "Airliner Fatalities": "1233",
+  "Corp jet Accidents": "1",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "9",
+  "Hijacking Fatalities": "19"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1c5"
+  },
+  "Year": "1957",
+  "Airliner Accidents": "76",
+  "Airliner Fatalities": "977",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "0",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1c6"
+  },
+  "Year": "1956",
+  "Airliner Accidents": "58",
+  "Airliner Fatalities": "850",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "2",
+  "Hijacking Fatalities": "1"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1c7"
+  },
+  "Year": "1955",
+  "Airliner Accidents": "64",
+  "Airliner Fatalities": "630",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "0",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1c8"
+  },
+  "Year": "1954",
+  "Airliner Accidents": "56",
+  "Airliner Fatalities": "707",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "3",
+  "Hijacking Fatalities": "2"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1c9"
+  },
+  "Year": "1953",
+  "Airliner Accidents": "74",
+  "Airliner Fatalities": "976",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "0",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1ca"
+  },
+  "Year": "1952",
+  "Airliner Accidents": "61",
+  "Airliner Fatalities": "783",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "4",
+  "Hijacking Fatalities": "2"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1cb"
+  },
+  "Year": "1951",
+  "Airliner Accidents": "69",
+  "Airliner Fatalities": "948",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "1",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1cc"
+  },
+  "Year": "1950",
+  "Airliner Accidents": "71",
+  "Airliner Fatalities": "1124",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "4",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1cd"
+  },
+  "Year": "1949",
+  "Airliner Accidents": "81",
+  "Airliner Fatalities": "1109",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "7",
+  "Hijacking Fatalities": "1"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1ce"
+  },
+  "Year": "1948",
+  "Airliner Accidents": "99",
+  "Airliner Fatalities": "1303",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "7",
+  "Hijacking Fatalities": "26"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1cf"
+  },
+  "Year": "1947",
+  "Airliner Accidents": "82",
+  "Airliner Fatalities": "1083",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "0",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1d0"
+  },
+  "Year": "1946",
+  "Airliner Accidents": "74",
+  "Airliner Fatalities": "844",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "0",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1d1"
+  },
+  "Year": "1945",
+  "Airliner Accidents": "39",
+  "Airliner Fatalities": "333",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "0",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1d2"
+  },
+  "Year": "1944",
+  "Airliner Accidents": "41",
+  "Airliner Fatalities": "333",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "0",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1d3"
+  },
+  "Year": "1943",
+  "Airliner Accidents": "38",
+  "Airliner Fatalities": "303",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "0",
+  "Hijacking Fatalities": "0"
+},{
+  "_id": {
+    "$oid": "600c6dd665e86f10f640d1d4"
+  },
+  "Year": "1942",
+  "Airliner Accidents": "30",
+  "Airliner Fatalities": "337",
+  "Corp jet Accidents": "0",
+  "Corp jet Fatalities": "0",
+  "Hijackings": "0",
+  "Hijacking Fatalities": "0"
+}]
