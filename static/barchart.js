@@ -27,7 +27,7 @@ d3.json("/json-data-continents", function (myData) {
        width: 500,
        height: 500
      };
-    Plotly.newPlot('my-chart', data);
+    Plotly.newPlot('my-continent', data);
   
   }); 
   
